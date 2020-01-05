@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  flex:1;
+  align-items: center;
+}
+button{
+  font-size: 20px;
+  padding:10px;
+  border-radius: 20%;
+}
+.container {
+  position:relative;
+  height:80vh;
+  width:100vh;
+  display:flex;
+  flex:1;
+  padding:50px;
+  justify-content: center;
+  align-items: center;
+}
+.colon {
+  padding-top: 100;
+  align-items: center;
+  justify-content: center;
+  margin:20px
+}
+.wrapper{
+  border-radius: 20px;
+  -webkit-box-shadow: 12px 12px 24px -4px rgba(0,0,0,0.5);
+-moz-box-shadow: 12px 12px 24px -4px rgba(0,0,0,0.5);
+box-shadow: 12px 12px 24px -4px rgba(0,0,0,0.5);
+}
+h6{
+  font-size: 45px;
+}
+.item {
+  position: absolute;
+  text-align: center;
+  height: auto;
+  width: auto;
+  font-size: 44px;
+  margin: 50px;
+  padding:  50px;
+  border-radius: 20px;
+ 
+}
+h4{
+  margin:50px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: yellow;
+}
+h5 {
+  position: absolute;
+  justify-content: flex-start;
+}
+h3{
+  margin-top: 50px;
+}
+
+ul{
+  overflow: hidden;
+  margin: 0 auto;
+  width: 200px
+}
+ul li {
+  float: left;
+  list-style-type: none;
+  
+}
+h1 {
+  padding: 30px;
+}
